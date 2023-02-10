@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="79.33513">
+<testcase classname="To validate forgotten password functionality of facebook application" name="to validate forgotten password" time="15.228865">
+<system-out><![CDATA[Given User have to enter facebook login through chrome browser..............passed
+And User have to click the forgotten keyword................................passed
+When user have to enter email or phoneno....................................passed
+Then user have to click the search button...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="to login the facebook application" name="to validate login using invalid usernme and invalid password" time="17.156567">
+<system-out><![CDATA[Given User have to enter facebook login through chrome browser..............passed
+When user enter" rea123@gmail.com" and "< password>"........................passed
+And user click the login button.............................................passed
+Then user should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="to login the facebook application" name="to validate login using invalid usernme and invalid password 2" time="18.12347">
+<system-out><![CDATA[Given User have to enter facebook login through chrome browser..............passed
+When user enter" ewty123@gmail.com" and "< password>".......................passed
+And user click the login button.............................................passed
+Then user should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="to login the facebook application" name="to validate login using invalid usernme and invalid password 3" time="28.826228">
+<system-out><![CDATA[Given User have to enter facebook login through chrome browser..............passed
+When user enter" lithvi123@gmail.com" and "< password>".....................passed
+And user click the login button.............................................passed
+Then user should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
