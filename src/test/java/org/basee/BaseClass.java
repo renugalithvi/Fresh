@@ -265,6 +265,7 @@ alert.getText();
 	}
 	public static void toimplicitWait(int sec) {
 driver.manage().timeouts().implicitlyWait(sec, TimeUnit.SECONDS);
+System.out.println("ypou");
 System.out.println("retww");
 	}
 	
